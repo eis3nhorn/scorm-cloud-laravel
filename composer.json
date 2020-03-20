@@ -18,7 +18,7 @@
     ],
     "require": {
         "php" : ">=7.0.0",
-        "eis3nhorn/scorm-cloud-php": "dev-master"
+        "asifm42/scorm-cloud-php": "dev-master"
     },
     "autoload": {
         "psr-4": {
