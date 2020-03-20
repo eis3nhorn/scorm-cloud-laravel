@@ -11,14 +11,14 @@ This library is available [via Composer][1].
 
 Command Line:
 ```sh
-composer require asifm42/scorm-cloud-laravel
+composer require eis3nhorn/scorm-cloud-laravel
 ```
 
 Composer.json:
 ```json
 {
     "require": {
-        "asifm42/scorm-cloud-laravel": "dev-master"
+        "eis3nhorn/scorm-cloud-laravel": "dev-master"
     }
 }
 ```
@@ -27,7 +27,7 @@ In Laravel 5.5 the service provider will automatically get registered. In older 
 ```php
 'providers' => [
     // ...
-    AsifM42\ScormCloudGateway\ScormCloudServiceProvider::class,
+    eis3nhorn\ScormCloudGateway\ScormCloudServiceProvider::class,
 ];
 ```
 
@@ -53,10 +53,10 @@ The organization name, the app name, and version number are used to create an or
 
 You can publish the configuration file with:
 ```php
-php artisan vendor:publish --provider="AsifM42\ScormCloudGateway\ScormCloudServiceProvider" --tag="config"
+php artisan vendor:publish --provider="eis3nhorn\ScormCloudGateway\ScormCloudServiceProvider" --tag="config"
 ```
 
-When published, [the `config/scormcloud.php` config file](https://github.com/asifm42/scorm-cloud-laravel/blob/master/config/scormcloud.php) contains:
+When published, [the `config/scormcloud.php` config file](https://github.com/eis3nhorn/scorm-cloud-laravel/blob/master/config/scormcloud.php) contains:
 ```php
 return [
 
