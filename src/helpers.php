@@ -1,6 +1,6 @@
 <?php
 
-use AsifM42\ScormCloudGateway\ScormCloudGateway;
+use eis3nhorn\ScormCloudGateway\ScormCloudGateway;
 
 if (! function_exists('scormcloud')) {
     function scormcloud(): ScormCloudGateway
